@@ -9,7 +9,7 @@ const {
     HarmBlockThreshold,
   } = require("@google/generative-ai");
   
-  const apiKey = process.env.AIzaSyBaTR5TTGxpmLZIe51_IO50cB6GBXxI7R0;
+  const apiKey = process.env.REACT_APP_API_KEY;
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
